@@ -5,7 +5,7 @@
     <div class="card-header">
         <div>
             <h1 class="card-title">Overzicht leveranciers</h1>
-            <p class="card-subtitle">Klik op het potlood om details te bekijken en te wijzigen.</p>
+<p class="card-subtitle">Klik op het potlood om details te bekijken of een leverancier te wijzigen.</p>
         </div>
         <span class="pill">Pagination: max 4 per pagina</span>
     </div>
