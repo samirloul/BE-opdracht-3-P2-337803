@@ -6,6 +6,9 @@ use App\Services\LeverancierService;
 use Illuminate\Http\Request;
 use Throwable;
 
+/**
+ * Controller voor User Story 01 - Wijzigen leverancier
+ */
 class LeverancierController extends Controller
 {
     public function __construct(private LeverancierService $service) {}
