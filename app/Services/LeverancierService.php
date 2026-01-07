@@ -24,6 +24,7 @@ class LeverancierService
 
         return (int)($row['Total'] ?? 0);
     }
+// Haalt leveranciers op met server-side pagination (max 4 per pagina)
 
     public function getLeveranciersPaginated(int $offset, int $limit): array
     {
