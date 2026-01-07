@@ -5,6 +5,9 @@ namespace App\Services;
 use Illuminate\Support\Facades\DB;
 use PDO;
 
+/**
+ * Service voor leverancier bewerkingen via PDO + Stored Procedures
+ */
 class LeverancierService
 {
     private function pdo(): PDO
