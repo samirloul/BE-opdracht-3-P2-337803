@@ -5,7 +5,7 @@
     <div class="card-header">
         <div>
             <h1 class="card-title">Wijzig leveranciergegevens</h1>
-            <p class="card-subtitle">Pas mobiel en straatnaam aan en sla op.</p>
+<p class="card-subtitle">Wijzig hier het mobiele nummer en de straatnaam en sla op.</p>
         </div>
         <div class="actions">
             <a class="btn btn-ghost" href="{{ route('leveranciers.show', $leverancier['Id']) }}">← Terug</a>
